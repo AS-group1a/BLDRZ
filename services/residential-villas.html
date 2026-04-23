@@ -35,17 +35,22 @@
 </script>
 <style>
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-  :root{--navy:#1A3A8C;--navy-dark:#122970;--navy-pale:#E8EEF8;--dark:#111;--gray:#777;--light-gray:#F4F5F7;--white:#fff;--border:#E2E6ED;}
-  body{font-family:'Barlow',sans-serif;font-weight:300;background:var(--white);color:var(--dark);}
+  :root{--navy:#1A3A8C;--navy-dark:#122970;--navy-light:#2450B5;--navy-pale:#E8EEF8;--dark:#111;--gray:#777;--mid-gray:#AAA;--light-gray:#F4F5F7;--white:#fff;--border:#E2E6ED;}
+  body{font-family:'Barlow',sans-serif;font-weight:300;background:var(--white);color:var(--dark);overflow-x:hidden;}
   body.lang-ar{font-family:'Noto Sans Arabic',sans-serif;direction:rtl;}
-  .topbar{background:var(--navy);color:rgba(255,255,255,0.8);font-size:0.78rem;padding:0.5rem 4rem;display:flex;justify-content:space-between;align-items:center;}
+  .topbar{background:var(--navy);color:rgba(255,255,255,0.8);font-size:0.78rem;letter-spacing:0.03em;padding:0.5rem 4rem;display:flex;justify-content:space-between;align-items:center;}
+  .topbar a{color:rgba(255,255,255,0.8);text-decoration:none;}
+  .topbar a:hover{color:#fff;}
   .lang-sw{display:flex;gap:2px;background:rgba(255,255,255,0.12);border-radius:3px;padding:2px;}
   .lb{background:transparent;border:none;color:rgba(255,255,255,0.6);font-size:0.7rem;font-weight:600;letter-spacing:0.1em;padding:0.25rem 0.55rem;cursor:pointer;border-radius:2px;font-family:inherit;}
   .lb.active{background:#fff;color:var(--navy);}
   .hero-svc{background:var(--navy-dark);position:relative;overflow:hidden;height:340px;display:flex;align-items:center;}
   .hero-svc img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(0.35) saturate(0.5);}
   .hero-svc-overlay{position:absolute;inset:0;background:linear-gradient(105deg,rgba(18,41,112,0.92) 0%,rgba(18,41,112,0.5) 60%,transparent 90%);}
-  .hero-svc-content{position:relative;z-index:2;padding:0 4rem;max-width:700px;}
+  .hero-svc-content{position:relative;z-index:2;padding:0 4rem 0 5.5rem;max-width:720px;}
+  .hero-accent{position:absolute;left:4rem;top:50%;transform:translateY(-50%);width:3px;height:48px;background:#fff;border-radius:2px;z-index:2;}
+  body.lang-ar .hero-accent{left:auto;right:4rem;}
+  body.lang-ar .hero-svc-content{padding:0 5.5rem 0 4rem;}
   .breadcrumb{font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.5);margin-bottom:1rem;}
   .breadcrumb a{color:rgba(255,255,255,0.5);text-decoration:none;}
   .breadcrumb a:hover{color:#fff;}
@@ -67,7 +72,11 @@
   body.lang-ar .cta-strip h2{font-family:'Noto Sans Arabic',sans-serif;letter-spacing:0;text-transform:none;}
   .cta-strip p{color:var(--gray);margin-bottom:1.5rem;font-size:0.95rem;}
   .btn-navy{background:var(--navy);color:#fff;padding:0.9rem 2.5rem;font-family:'Barlow Condensed',sans-serif;font-size:0.9rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;text-decoration:none;border-radius:2px;display:inline-block;transition:background 0.2s;}
-  .btn-navy:hover{background:#2450B5;}
+  .btn-navy:hover{background:var(--navy-light);transform:translateY(-1px);}
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity 0.65s ease,transform 0.65s ease;}
+  .reveal.visible{opacity:1;transform:none;}
+  footer a.foot-link{color:rgba(255,255,255,0.4);text-decoration:none;font-size:0.72rem;letter-spacing:0.1em;text-transform:uppercase;transition:color 0.2s;}
+  footer a.foot-link:hover{color:#fff;}
   .svc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1px;background:var(--border);margin:4rem auto;max-width:1100px;}
   .svc-link-card{background:#fff;padding:1.5rem;border-top:2px solid transparent;transition:border-color 0.2s,background 0.2s;text-decoration:none;display:block;}
   .svc-link-card:hover{border-top-color:var(--navy);background:var(--navy-pale);}
@@ -105,6 +114,7 @@
 <section class="hero-svc">
   <img width="1200" height="675" src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200&q=80&fm=webp&auto=format" alt="Lebanese stone villa Mediterranean residential" loading="eager" fetchpriority="high"/>
   <div class="hero-svc-overlay"></div>
+  <div class="hero-accent"></div>
   <div class="hero-svc-content">
     <p class="breadcrumb"><a href="../index.html">Home</a> → <a href="../services.html">Services</a> → <span data-i18n="title_en">Residential Villas Lebanon</span></p>
     <h1 class="svc-h1" data-i18n="h1">Residential Villas in Lebanon</h1>
@@ -152,7 +162,8 @@
 <footer style="background:#122970;border-top:3px solid #1A3A8C;padding:2rem 4rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;">
   <a href="../index.html" style="font-family:'Barlow Condensed',sans-serif;font-size:1.3rem;font-weight:900;color:#fff;text-decoration:none;text-transform:uppercase;letter-spacing:0.06em;">AJC <span style="color:rgba(255,255,255,0.4);">Contracting</span></a>
   <p style="font-size:0.75rem;color:rgba(255,255,255,0.3);">© 2024 AJC Contracting. All rights reserved. Lebanon.</p>
-  <p style="font-size:0.75rem;color:rgba(255,255,255,0.4);">✉ Ajccontracting@gmail.com &nbsp;|&nbsp; Metn, Lebanon &nbsp;|&nbsp; Mon–Sat 7:30AM–6PM</p>
+  <p style="font-size:0.75rem;color:rgba(255,255,255,0.4);">✉ <a href="mailto:Ajccontracting@gmail.com" style="color:rgba(255,255,255,0.4);text-decoration:none;">Ajccontracting@gmail.com</a> &nbsp;|&nbsp; Metn, Lebanon &nbsp;|&nbsp; Mon–Sat 7:30AM–6PM</p>
+  <div style="display:flex;gap:1.5rem;"><a class="foot-link" href="../services.html">Services</a><a class="foot-link" href="../about.html">About</a><a class="foot-link" href="../contact.html">Contact</a></div>
 </footer>
 
 <script>

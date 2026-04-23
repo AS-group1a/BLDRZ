@@ -99,6 +99,8 @@
     display: flex; justify-content: space-between; align-items: center;
   }
 
+  .topbar a { color: rgba(255,255,255,0.8); text-decoration: none; }
+  .topbar a:hover { color: #fff; }
   .topbar-right { display: flex; gap: 2rem; align-items: center; }
 
   /* Language switcher */
@@ -139,14 +141,14 @@
     background: var(--white);
     display: flex; align-items: center; justify-content: space-between;
     padding: 0 4rem;
-    height: 70px;
+    height: 68px;
     border-bottom: 3px solid var(--navy);
     box-shadow: 0 2px 12px rgba(26,58,140,0.08);
   }
 
   .nav-logo {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 1.7rem; font-weight: 900;
+    font-size: 1.6rem; font-weight: 900;
     color: var(--navy);
     text-decoration: none;
     letter-spacing: 0.06em;
@@ -155,12 +157,12 @@
 
   .nav-logo span { color: #2C2C2C; }
 
-  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links { display: flex; gap: 1.5rem; list-style: none; align-items: center; }
 
   .nav-links a {
     color: #2C2C2C;
     text-decoration: none;
-    font-size: 0.82rem;
+    font-size: 0.8rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-weight: 400;
@@ -655,6 +657,8 @@
 
   .c-label { font-size: 0.68rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--mid-gray); margin-bottom: 0.2rem; }
   .c-val { font-size: 0.9rem; color: var(--dark); }
+  .c-val a { color: var(--dark); text-decoration: none; }
+  .c-val a:hover { color: var(--navy); }
 
   body.lang-ar .c-label { letter-spacing: 0; text-transform: none; }
 
@@ -693,26 +697,26 @@
   footer {
     background: var(--navy-dark);
     border-top: 3px solid var(--navy);
-    padding: 2.5rem 4rem;
+    padding: 2.2rem 4rem;
     display: flex; justify-content: space-between;
-    align-items: center; flex-wrap: wrap; gap: 1.5rem;
+    align-items: center; flex-wrap: wrap; gap: 1rem;
   }
 
   .foot-logo {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 1.4rem; font-weight: 900;
+    font-size: 1.3rem; font-weight: 900;
     color: var(--white); text-decoration: none;
     text-transform: uppercase; letter-spacing: 0.06em;
   }
 
   .foot-logo span { color: rgba(255,255,255,0.4); }
-  .foot-copy { font-size: 0.78rem; color: rgba(255,255,255,0.3); }
+  .foot-copy { font-size: 0.75rem; color: rgba(255,255,255,0.3); }
 
-  .foot-links { display: flex; gap: 2rem; list-style: none; }
+  .foot-links { display: flex; gap: 1.5rem; list-style: none; }
 
   .foot-links a {
     color: rgba(255,255,255,0.4); text-decoration: none;
-    font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase;
+    font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase;
     transition: color 0.2s;
   }
 
@@ -814,7 +818,7 @@
 <div class="stats-strip">
   <div class="stat-item reveal"><div class="stat-number">15+</div><div class="stat-label" data-i18n="stat1">Years Experience</div></div>
   <div class="stat-item reveal"><div class="stat-number">200+</div><div class="stat-label" data-i18n="stat2">Projects Delivered</div></div>
-  <div class="stat-item reveal"><div class="stat-number">6</div><div class="stat-label" data-i18n="stat3">Governorates</div></div>
+  <div class="stat-item reveal"><div class="stat-number">7</div><div class="stat-label" data-i18n="stat3">Governorates</div></div>
   <div class="stat-item reveal"><div class="stat-number">98%</div><div class="stat-label" data-i18n="stat4">Client Satisfaction</div></div>
 </div>
 
