@@ -4,7 +4,7 @@
 
   <url>
     <loc>https://www.ajc-contracting.com/</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.ajc-contracting.com/"/>
@@ -13,59 +13,113 @@
   </url>
 
   <url>
-    <loc>https://www.ajc-contracting.com/services/general-contracting.html</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://www.ajc-contracting.com/about.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ajc-contracting.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.ajc-contracting.com/about.html#ar"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ajc-contracting.com/about.html#fr"/>
+  </url>
+
+  <url>
+    <loc>https://www.ajc-contracting.com/contact.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ajc-contracting.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.ajc-contracting.com/contact.html#ar"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ajc-contracting.com/contact.html#fr"/>
+  </url>
+
+  <url>
+    <loc>https://www.ajc-contracting.com/services.html</loc>
+    <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ajc-contracting.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.ajc-contracting.com/services.html#ar"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ajc-contracting.com/services.html#fr"/>
+  </url>
+
+  <url>
+    <loc>https://www.ajc-contracting.com/services/general-contracting.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ajc-contracting.com/services/general-contracting.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.ajc-contracting.com/services/general-contracting.html#ar"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ajc-contracting.com/services/general-contracting.html#fr"/>
   </url>
 
   <url>
     <loc>https://www.ajc-contracting.com/services/structural-works.html</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ajc-contracting.com/services/structural-works.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.ajc-contracting.com/services/structural-works.html#ar"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ajc-contracting.com/services/structural-works.html#fr"/>
   </url>
 
   <url>
     <loc>https://www.ajc-contracting.com/services/interior-fitout.html</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ajc-contracting.com/services/interior-fitout.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.ajc-contracting.com/services/interior-fitout.html#ar"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ajc-contracting.com/services/interior-fitout.html#fr"/>
   </url>
 
   <url>
     <loc>https://www.ajc-contracting.com/services/commercial-projects.html</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ajc-contracting.com/services/commercial-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.ajc-contracting.com/services/commercial-projects.html#ar"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ajc-contracting.com/services/commercial-projects.html#fr"/>
   </url>
 
   <url>
     <loc>https://www.ajc-contracting.com/services/residential-villas.html</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ajc-contracting.com/services/residential-villas.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.ajc-contracting.com/services/residential-villas.html#ar"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ajc-contracting.com/services/residential-villas.html#fr"/>
   </url>
 
   <url>
     <loc>https://www.ajc-contracting.com/services/renovation.html</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ajc-contracting.com/services/renovation.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.ajc-contracting.com/services/renovation.html#ar"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ajc-contracting.com/services/renovation.html#fr"/>
   </url>
 
   <url>
     <loc>https://www.ajc-contracting.com/services/solar-energy.html</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ajc-contracting.com/services/solar-energy.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.ajc-contracting.com/services/solar-energy.html#ar"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ajc-contracting.com/services/solar-energy.html#fr"/>
   </url>
 
   <url>
     <loc>https://www.ajc-contracting.com/services/electrical-works.html</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ajc-contracting.com/services/electrical-works.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.ajc-contracting.com/services/electrical-works.html#ar"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ajc-contracting.com/services/electrical-works.html#fr"/>
   </url>
 
 </urlset>
